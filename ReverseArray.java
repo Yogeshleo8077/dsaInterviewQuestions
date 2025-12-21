@@ -1,4 +1,3 @@
-package TwoPointer;
 
 public class ReverseArray {
     public static void swap(int arr[], int left, int right) {
