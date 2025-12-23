@@ -22,6 +22,6 @@ public class ReverseStringUsingStack {
 
     public static void main(String[] args) {
         String str = "JAVA";
-        System.out.println(reverseString(str));
+        System.out.println("Reversed String: " + reverseString(str));
     }
 }
