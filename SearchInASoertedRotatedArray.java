@@ -24,7 +24,7 @@ public class SearchInASoertedRotatedArray {
                     left = mid + 1;
                 }
             } else {
-                if (arr[mid] < target && target < arr[right]) {
+                if (arr[mid] < target && target <= arr[right]) {
                     left = mid + 1;
                 } else {
                     right = mid - 1;
